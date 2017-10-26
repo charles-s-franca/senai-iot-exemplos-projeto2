@@ -5,7 +5,7 @@
 
 // Inicializa o objeto do sensor ultrasônico
 // Usando as portas 12 e 13 para trigger e echo
-Ultrasonic ultrasonic(12, 13);
+Ultrasonic ultrasonic(9, 10);
 
 void setup() {
   // Inicializa a porta Serial
