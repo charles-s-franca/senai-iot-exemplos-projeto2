@@ -30,3 +30,4 @@ void loop() {
   lcd.print(distancia);
   delay(1000);
 }
+
