@@ -35,3 +35,8 @@ void loop() {
 //    desligar led vermelho
 //    desligar led amarelo
 }
+
+// Links para traduzir o código
+//
+// SE/SENAO = IF/ELSE -> https://www.arduino.cc/en/Reference/Else
+// E = && (logical and) -> https://www.arduino.cc/en/Reference/Boolean
