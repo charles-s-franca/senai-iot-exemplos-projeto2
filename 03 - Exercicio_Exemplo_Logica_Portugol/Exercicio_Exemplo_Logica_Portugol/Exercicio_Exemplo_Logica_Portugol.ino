@@ -3,7 +3,7 @@
 // precisa ser instalada pelo gerenciador de bibliotecas
 #include <Ultrasonic.h>
 
-int portaLed = 8;
+int portaLed = 7;
 
 // Inicializa o objeto do sensor ultrasônico
 // Usando as portas 12 e 13 para trigger e echo
@@ -24,9 +24,21 @@ void loop() {
   
   delay(1000);
 
-  if(distancia < 100){
-    digitalWrite(portaLed, HIGH);
-  }else{
-    digitalWrite(portaLed, LOW);  
-  }
+//  SE distancia MENOR QUE 100 E distancia MAIOR QUE 80
+//    acender led amarelo
+if (distancia <100 && >80);
+
+//  SENAO SE distancia MENOR QUE 80 E distancia MAIOR QUE 60
+//    acender led vermelho
+//  SENAO SE distancia MENOR QUE 60
+//    tocar buzzer
+//  SENAO 
+//    desligar buzzer
+//    desligar led vermelho
+//    desligar led amarelo
 }
+
+// Links para traduzir o código
+//
+// SE/SENAO = IF/ELSE -> https://www.arduino.cc/en/Reference/Else
+// E = && (logical and) -> https://www.arduino.cc/en/Reference/Boolean
